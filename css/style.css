@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.slider-container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: pink;
+}
+
+.slider-track {
+    display: flex;
+    background-color: yellow;
+    transition: all 1s;
+}
+
+.slider-item {
+    height: 300px;
+}
+
+.slider-item:nth-child(3n+1) {
+    background-color: green;
+}
+
+.slider-item:nth-child(3n+2) {
+    background-color: red;
+}
+
+.slider-item:nth-child(3n+3) {
+    background-color: blue;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(157, 93, 216);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
