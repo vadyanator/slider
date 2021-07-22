@@ -1,1 +1,1 @@
-# slider
+# https://vadyanator.github.io/slider/
